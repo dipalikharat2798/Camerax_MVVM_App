@@ -7,7 +7,7 @@
     android:orientation="vertical"
     app:cardElevation="6dp">
 
-    <com.androdevdk.camerax_mvvm_app.util.Zoom
+    <com.androdevdk.mydatelibrary.Zoom
         android:id="@+id/item_img"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

@@ -21,7 +21,8 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
+
         <ImageView
             android:id="@+id/mainimageView2"
             android:layout_width="match_parent"
@@ -32,6 +33,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
         <ImageView
             android:id="@+id/mainimageView"
             android:layout_width="match_parent"
@@ -44,7 +46,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <com.androdevdk.camerax_mvvm_app.util.Zoom
+        <com.androdevdk.mydatelibrary.Zoom
             android:id="@+id/mainimageView1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -93,16 +95,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="25dp"
-                android:src="@drawable/ic_zoom"
-                />
+                android:src="@drawable/ic_zoom" />
 
             <ImageView
                 android:id="@+id/flash_btn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="15dp"
-                android:src="@drawable/ic_flash_off"
-                />
+                android:src="@drawable/ic_flash_off" />
         </LinearLayout>
 
         <TextView
